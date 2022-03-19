@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: poppins;
+}
+
+#Header{
+    background: url(https://www.free-css.com/assets/files/free-css-templates/preview/page265/woodo/assets/images/banner-bg.jpg);
+    min-height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+#Header nav ul li a{
+    color: white;
+    margin: auto 30px;
+    text-align: center;
+}
+#Header nav ul li a:hover{
+    color: black;
+    cursor: pointer;
+}
+#Header .Headerinfo{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin:100px auto;
+}
+#Header .Headerinfo h1{
+    font-size: 60px;
+    font-weight:bolder;
+}
+#Header .Headerinfo h1 span{
+    color: white;
+}
+#Header .Headerinfo p{
+    color: white;
+    margin:50px 0px 30px 0px;
+}
+#Header .Headerinfo button{
+    padding: 10px 15px;
+    border: none;
+    margin-right: 30px;
+}
+#Header .Headerinfo .info{
+    color: black;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+#Header .Headerinfo .item{
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+#Header .Headerinfo .HeadBoder{
+    border-left: 2px solid white;
+}
+#Header .Headerinfo .Tableimg{
+    margin:100px auto;
+    z-index: -2;
+}
+
+#About {
+    min-height: 100vh;
+    margin: 200px 0px 0px 0px ;
+}
+#About h1{
+    font-weight: 900;
+    /* margin: 30px auto; */
+}
+#About .Aboutinfo{
+    background-color: black;
+    color: white;
+    margin-bottom: 50px;
+}
+#About .Aboutinfo p{
+    margin: 100px 0px 50px 0px;
+    font-weight: 500;
+}
+#About .Aboutinfo button{
+    background-color: yellow;
+    color: black;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+}
+#About .imginfo{
+    background-color: yellow;
+    margin-top: 50px;
+}
+#About .imginfo .Tableimg{
+    padding: 20px;
+}
+#Furniture .row{
+    display: flex;
+    justify-content: center;
+    align-items:space-evenly;
+}
+
+#Testimonial{
+    min-height: 90vh;
+}
+#Testimonial img{
+    margin-top: -30px;
+    box-shadow: 10px 10p 20px black;
+}
+#Testimonial p{
+    padding:0px 0px 50px 0px;
+}
+
+#Contact input{
+    padding: 5px 10px;
+    border: none;
+   margin: 40px 50px 20px 0px;
+}
+#Contact button{
+    background-color: black;
+    color: white;
+    padding: 10px 55px;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+#Contact i{
+    margin: 20px 20px;
+}
+#Contact .Address{
+    color: white;
+    margin-top: 30px;
+}
+footer{
+    background-color: #ffc107;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
